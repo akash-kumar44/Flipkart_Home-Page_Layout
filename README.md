@@ -1,2 +1,4 @@
-# flipkart_home-page_clone
-Created using HTML &amp; CSS
+# Flipkart-Home-page-layout
+- Home-Page layout (Created Using HTML &amp; CSS)
+- Front-end Project
+- Beginner Friendly
