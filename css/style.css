@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 101px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 14px;
+}
+nav ul li a:hover{
+    font-weight:bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.search input{
+    width: 42vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin: 0 0 0 61px;
+    border: 1px solid black;
+}
+
+.search button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+}
+
+.btn:hover{
+    font-weight: bold;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 10vh);
+}
+.slider{
+    width: 75vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card{
+    max-width: 99vw;
+    margin: 37px auto;
+    overflow:hidden;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+    
+}
+/* .item-heading{
+    display: flex;
+    justify-content: space-between;
+*/
+.card-heading{
+    width: 92vw;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-2 {
+    background-color: #2874f0;
+    color: white;
+    cursor: pointer;
+    border: transparent;
+    width: 72px;
+    border-radius: 5px;
+    height: 5vh;
+
+
+}
+
+.card-items1{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 11vw;
+    margin: 0 2.5vw;
+}
+.card-items1 img{
+    border-radius: 8px;
+}
+/*
+.card-items2{
+    display: flex;
+    justify-content: space-around;
+    margin: 7vh 0;
+} */
+footer{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
